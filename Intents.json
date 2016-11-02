@@ -1,0 +1,77 @@
+{
+    "intents": [
+      
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "LightControl",
+            "slots": [
+                {
+                    "name": "command",
+                    "type": "ON_OR_OFF"
+                }
+            ]
+        },
+      {
+        "intent": "CarRegistration",
+        "slots": [
+          {
+            "name": "reg",
+            "type": "regCharacter"
+          }
+        ]
+      },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "AMAZON.RepeatIntent"
+        },
+        {
+            "intent": "AMAZON.NoIntent"
+        },
+        {
+            "intent": "AMAZON.YesIntent"
+        },
+        {
+            "intent": "Taxes"
+        },
+        {
+            "intent": "CarTax",
+            "slots":[{
+                "name":"registration",
+              	"type":"CAR_REGISTRATION"
+                }
+            ]
+        },
+      {	
+        "intent": "FloodReport",
+        "slots": 
+        [
+          {
+            "name":"region",
+            "type":"county"
+          }
+        ]
+      },
+        {
+            "intent": "Benefits"
+        },
+        {
+            "intent": "DrivingLicense"
+        },
+        {	
+            "intent" : "SearchGovUK"
+         },
+        {
+            "intent": "Passport"
+        },
+        {
+            "intent": "IncomeTax"
+        },
+        {
+            "intent": "HousingBenefit"
+        }
+    ]
+}
